@@ -1,6 +1,5 @@
 #include "String.h"
 
-#include "String.h"
 void String::Print() {
 	cout << str << endl << "size = " << size << endl << endl;
 }
