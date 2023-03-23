@@ -23,15 +23,18 @@ int main()
     String s{"The Best C++"};
     
     //[] — возвращает элемент по указанному индексу;
-    char tmp = s[2];
-    cout << tmp<<endl;
+    //char tmp = s[2];
+    //cout << tmp<<endl;
 
     //Преобразование к int возвращает длину строки.
-    int l = s.length(s);
-    cout << l << endl;
+   // int l = s.length(s);
+    //cout << l << endl;
   
     //() — ищет символ в строке, если символ есть возвращает индекс, если нет –1.
-    int index = s(s, 'h');
-    cout << index;
+   // int index = s(s, 'h');
+    //cout << index;
     
+    String s2{ "Hello World" };
+    String s3{ s2 };
+    s3.Print();
 }
